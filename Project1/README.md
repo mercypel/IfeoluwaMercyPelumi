@@ -152,13 +152,13 @@ source("Project 1 file.R")
 
 ---
 
-## 💡 Business Insights
+## 💡 Key Insights
+* Product 1 performs better on cooler, dry days
+* Product 2 shows little to no sensitivity to weather
+* Product 3 is slightly affected by rain
+* Weekends consistently increase sales across all products
 
-* **Product 1** performs better in cooler, dry conditions
-* **Product 2** is largely unaffected by weather
-* **Product 3** is slightly impacted by rain
-* **Weekends drive higher sales across all products**
-
+📄 For detailed analysis, model interpretation, and full recommendations, see the full report included in this repository.
 ---
 
 
