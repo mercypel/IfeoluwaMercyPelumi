@@ -1,4 +1,4 @@
-# Sales & Weather Analysis
+# Product Sales & Weather Analysis
 
 ![R](https://img.shields.io/badge/Language-R-blue)
 ![Database](https://img.shields.io/badge/Database-SQLite-lightgrey)
