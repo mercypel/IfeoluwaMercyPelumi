@@ -127,11 +127,6 @@ joined_data$tmin <- ifelse(
   joined_data$tmin
 )
 
-joined_data$depart <- ifelse(
-  is.na(joined_data$depart),
-  ave(joined_data$depart, joined_data$station_nbr, FUN = function(x) median(x, na.rm = TRUE)),
-  joined_data$depart
-)
 
 joined_data$dewpoint <- ifelse(
   is.na(joined_data$dewpoint),
@@ -203,37 +198,9 @@ joined_data$avgspeed <- ifelse(
   ave(joined_data$avgspeed, joined_data$station_nbr, FUN = function(x) median(x, na.rm = TRUE)),
   joined_data$avgspeed
 )
-joined_data$depart <- ifelse(
-  is.na(joined_data$depart),
-  ave(joined_data$depart, joined_data$station_nbr, FUN = function(x) median(x, na.rm = TRUE)),
-  joined_data$depart
-)
-
-joined_data$wetbulb <- ifelse(
-  is.na(joined_data$wetbulb),
-  ave(joined_data$wetbulb, joined_data$station_nbr, FUN = function(x) median(x, na.rm = TRUE)),
-  joined_data$wetbulb
-)
-
-joined_data$stnpressure <- ifelse(
-  is.na(joined_data$stnpressure),
-  ave(joined_data$stnpressure, joined_data$station_nbr, FUN = function(x) median(x, na.rm = TRUE)),
-  joined_data$stnpressure
-)
-
-joined_data$sealevel <- ifelse(
-  is.na(joined_data$sealevel),
-  ave(joined_data$sealevel, joined_data$station_nbr, FUN = function(x) median(x, na.rm = TRUE)),
-  joined_data$sealevel
-)
-
 
 ## Normal median was used to fix missing value for sealevel,wetbulb and stnpressure becauses some station such as station 5 are all missing values so the median can't be used.
-joined_data$sealevel <- ifelse(
-  is.na(joined_data$sealevel),
-  ave(joined_data$sealevel, joined_data$station_nbr, FUN = function(x) median(x, na.rm = TRUE)),
-  joined_data$sealevel
-)
+
 joined_data$wetbulb[is.na(joined_data$wetbulb)] <- median(joined_data$wetbulb, na.rm = TRUE)
 joined_data$stnpressure[is.na(joined_data$stnpressure)] <- median(joined_data$stnpressure, na.rm = TRUE)
 joined_data$sealevel[is.na(joined_data$sealevel)] <- median(joined_data$sealevel, na.rm = TRUE)
