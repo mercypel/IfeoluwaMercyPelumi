@@ -104,9 +104,9 @@ The model returns:
 
 ---
 
-## **🧪 Deployment Test**
+## **🧪 Sample Testing**
 
-The file `deployment_test.py` demonstrates how to:
+The file `sample_test_script.py` demonstrates how to:
 
 - load the model using `pickle`  
 - load the feature column list  
@@ -147,7 +147,7 @@ sample_test_script.py
 Install dependencies:
 
 ```
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 ---
