@@ -143,6 +143,7 @@ sample_test_script.py
 ---
 
 ## **📄 Requirements**
+This project was developed using Python 3.12.7, along with the specific package versions listed in the requirements file to ensure full reproducibility.
 
 Install dependencies:
 
