@@ -1,4 +1,4 @@
-# **Risk Classification Model**
+# **Classifying Application Risk**
 
 This project builds a machine‑learning model that classifies software applications as either **high‑risk** or **low‑risk** based on their behavioural features. The raw data was supplied in a sparse format, so a key part of the work involved transforming it into a usable dataset, training a reliable model, and packaging everything so another developer can run predictions without difficulty.
 
