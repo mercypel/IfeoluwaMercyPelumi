@@ -12,7 +12,7 @@ project2/
 ├── data_preparation.py          # Converts sparse raw files into a clean dataset
 ├── model_training.py            # Trains the XGBoost model and saves outputs
 ├── model_testing.py             # Evaluates the model on the full dataset
-├── deployment_test.py           # Loads the packaged model and runs predictions
+├── simple_test_script.py           # Loads the packaged model and runs predictions
 │
 ├── processed/
 │   └── processed_data.csv       # Clean dataset used for modelling
@@ -24,7 +24,7 @@ project2/
 ├── plots/
 │   └── feature_importance_top15.png   # Top 15 feature‑importance plot
 │
-└── documentation.pdf            # Full project documentation
+└── project2 Documentation.docx            # Full project documentation
 ```
 
 ---
