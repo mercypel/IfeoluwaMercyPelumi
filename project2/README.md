@@ -12,7 +12,7 @@ project2/
 ├── data_preparation.py          # Converts sparse raw files into a clean dataset
 ├── model_training.py            # Trains the XGBoost model and saves outputs
 ├── model_testing.py             # Evaluates the model on the full dataset
-├── simple_test_script.py           # Loads the packaged model and runs predictions
+├── sample_test_script.py           # Loads the packaged model and runs predictions
 │
 ├── processed/
 │   └── processed_data.csv       # Clean dataset used for modelling
